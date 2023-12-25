@@ -5,6 +5,6 @@ Welcome to my JavaScript learning journey! This repository contains the code and
 ## Projects List
 <ol>
   <li>
-    <strong>Digital Clock </strong> a clock where
+    <strong>Digital Clock .</strong>
   </li>
 </ol>
