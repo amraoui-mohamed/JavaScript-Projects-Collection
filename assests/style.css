@@ -1,10 +1,20 @@
+:root 
+{
+    --night-color : #121113 ;
+    --blue-color : #5603AD ;
+    --fire-red :#C1292E;
+    --white-smoke :#F4F4F4;
+}
 * 
 {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+body 
+{
+    background-color: var(--white-smoke);
+}
 .container 
 {
     width: 95%;
@@ -34,8 +44,21 @@
 
 .card .card-title 
 {
-    text-decoration: none;
     margin:  .3rem;
     font-size: 1.2rem;
-    color: black;
+    color: var(--night-color);
+}
+.card .card-action 
+{
+    text-decoration: none;
+    padding: .5rem;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    font-size: 16px;
+    background-color: var(--fire-red);
+    color: #fff;
+    margin-right: .3rem;
+    border-radius: 3px;
+    font-size: 1rem;
 }
